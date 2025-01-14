@@ -8,10 +8,10 @@ while True:
     if guess < number:
         print ('Ваше число меньше того, что загадано.') 
         count += 1
-    if guess > number:
+    elif guess > number:
         print ('Ваше число больше того, что загадано.')
         count += 1
-    if guess == number:
+    elif guess == number:
         count += 1
         break
     
